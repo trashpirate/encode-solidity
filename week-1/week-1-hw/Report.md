@@ -30,4 +30,4 @@ https://sepolia.etherscan.io/address/0x697836894fCA817717d6dc050CB1469ca3ea147C
 -> successful; returns 0xa807cb55c126F7B2766C3Ae5d9bCB2B4ffAB69cf
 
 ### Call setText:
-Returned error: {"jsonrpc":"2.0","error":"execution reverted: Caller is not the owner","id":8182344480579173}
+Reverted because not the owner; Returned error: {"jsonrpc":"2.0","error":"execution reverted: Caller is not the owner","id":8182344480579173}
