@@ -85,3 +85,12 @@ State Changes
 **Sixth Transaction:**
 - I attempted to setText but I got an error of "execution reverted: Caller is not the owner"
 - I tried calling helloWorld() but I kept getting "Failed to decode output: Error: data out-of-bounds"
+
+**Seventh Transaction:**
+- Nadina calls setText() with 'Contract Interaction 0xNadina' - successful!
+  https://sepolia.etherscan.io/tx/0xa2a9e46d87e1f627e4957d089cc670bc143e503a9643a3944a0df88ec2b2a62a
+- Nadina calls helloWorld(): returns 'Contract Interaction 0xNadina'
+- Nadina transfers ownership back to Danny: 
+  https://sepolia.etherscan.io/tx/0x72465eef5762c06c67eb103c930f1e0f1d4afd043f9f5aa900d1eef466293e4d
+- Nadina calls set Text - fails
+  Returned error: {"jsonrpc":"2.0","error":"execution reverted: Caller is not the owner","id":8182344480580906}
