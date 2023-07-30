@@ -25,7 +25,7 @@ https://sepolia.etherscan.io/tx/0x5e2603192ced2082030a034c9de408e54026430ca85f9b
 -> successful; returns 0xa807cb55c126F7B2766C3Ae5d9bCB2B4ffAB69cf
 
 **Call setText**:
--> reverst because not owner; Returned error: {"jsonrpc":"2.0","error":"execution reverted: Caller is not the owner","id":8182344480580752}
+-> reverts because not owner; Returned error: {"jsonrpc":"2.0","error":"execution reverted: Caller is not the owner","id":8182344480580752}
 
 ## Danny's Contract:
 https://sepolia.etherscan.io/address/0x697836894fCA817717d6dc050CB1469ca3ea147C
