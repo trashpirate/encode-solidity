@@ -21,6 +21,9 @@ https://sepolia.etherscan.io/tx/0x3746ed94fbb716719fde731fb5d201881bfcda430e2a6a
 **Transferred Ownership** to 0xa807cb55c126F7B2766C3Ae5d9bCB2B4ffAB69cf:
 https://sepolia.etherscan.io/tx/0x5e2603192ced2082030a034c9de408e54026430ca85f9b6c523ebb41354a4f9f
 
+**Call owner**:
+-> successful; returns 0xa807cb55c126F7B2766C3Ae5d9bCB2B4ffAB69cf
+
 **Call setText**:
 -> reverst because not owner; Returned error: {"jsonrpc":"2.0","error":"execution reverted: Caller is not the owner","id":8182344480580752}
 
