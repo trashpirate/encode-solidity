@@ -7,30 +7,12 @@
 		"abi": [
 			{
 				"inputs": [],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
-				"inputs": [],
 				"name": "helloWorld",
 				"outputs": [
 					{
 						"internalType": "string",
 						"name": "",
 						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "owner",
-				"outputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
 					}
 				],
 				"stateMutability": "view",
@@ -76,7 +58,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"week-1/week-1-hw/IHelloWorld.sol": "HelloWorld"
+			"week-1/week-1-hw/IHelloWorld.sol": "IHelloInterface"
 		},
 		"evmVersion": "paris",
 		"libraries": {},

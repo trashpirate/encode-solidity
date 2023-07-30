@@ -7,30 +7,12 @@
 		"abi": [
 			{
 				"inputs": [],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
-				"inputs": [],
 				"name": "helloWorld",
 				"outputs": [
 					{
 						"internalType": "string",
 						"name": "",
 						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "owner",
-				"outputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
 					}
 				],
 				"stateMutability": "view",
@@ -76,7 +58,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"week-1/week-1-hw/IHelloWorld.sol": "HelloWorld"
+			"week-1/week-1-hw/IHelloWorld.sol": "HelloWorldInterface"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -91,11 +73,11 @@
 	},
 	"sources": {
 		"week-1/week-1-hw/IHelloWorld.sol": {
-			"keccak256": "0xde9cc86187de8bc64feea6becbcd9ab5592fcbcf44166c5333d0715e0d282b67",
+			"keccak256": "0xb6dbbbe813a464c50106bcd55505615ad5f34578c09c809287a74667299cf24b",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://dac5010aa9f4d4854960d3c97e923b28ad6b4e80403e98b7034b11cfca23561a",
-				"dweb:/ipfs/Qma5o7sp149RE32w7ZA4tph7b27TDWkndg76oBDBNsA7y3"
+				"bzz-raw://349afcb961921d3c16e57a5a07432dc4b40c0caba8bf6a1bae076f4c12014c2d",
+				"dweb:/ipfs/QmWAUMVStmX8xBojzgv1R7UQxHmJ8utCUcvP9xKtiLLUif"
 			]
 		}
 	},
