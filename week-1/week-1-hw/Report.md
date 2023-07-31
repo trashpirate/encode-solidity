@@ -24,14 +24,14 @@ https://sepolia.etherscan.io/tx/0x5e2603192ced2082030a034c9de408e54026430ca85f9b
 **Call owner**:
 -> successful; returns 0xa807cb55c126F7B2766C3Ae5d9bCB2B4ffAB69cf
 
-**Call setText** by 0xa807cb55c126F7B2766C3Ae5d9bCB2B4ffAB69cf:
+**Call setText**:
 -> reverts because not owner; Returned error: {"jsonrpc":"2.0","error":"execution reverted: Caller is not the owner","id":8182344480580752}
 
-**Call setText** by 0x7Bb8be3D9015682d7AC0Ea377dC0c92B0ba152eF
+**Call setText** by 0xa807cb55c126F7B2766C3Ae5d9bCB2B4ffAB69cf
 -> successfull
 https://sepolia.etherscan.io/tx/0xc2ffbe88aa053f15d4558f1a25d61394f8b32894a49a09cd4eba56c3f50f0aa0
 
-**Transferred Ownership** back to 
+**Transferred Ownership** back to 0x7Bb8be3D9015682d7AC0Ea377dC0c92B0ba152eF:
 -> successfull
 https://sepolia.etherscan.io/tx/0x215c0c057b137bc0a52772ba7291889b3ed40900e4261e090f484590ac0c682e
 
