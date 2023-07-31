@@ -76,7 +76,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"week-1/week-1-hw/IHelloWorld.sol": "HelloWorld"
+			"week-1/week-1-hw/HelloWorld.sol": "HelloWorld"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -90,12 +90,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"week-1/week-1-hw/IHelloWorld.sol": {
-			"keccak256": "0xde9cc86187de8bc64feea6becbcd9ab5592fcbcf44166c5333d0715e0d282b67",
+		"week-1/week-1-hw/HelloWorld.sol": {
+			"keccak256": "0xb20b78b0e46a76c794b0631bcb7b05c6f4a9a89cda17c8d1be57c1529a606ece",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://dac5010aa9f4d4854960d3c97e923b28ad6b4e80403e98b7034b11cfca23561a",
-				"dweb:/ipfs/Qma5o7sp149RE32w7ZA4tph7b27TDWkndg76oBDBNsA7y3"
+				"bzz-raw://344b875a91890a9a6c5d5ab2983d08dba3898af97ac21f39206c359094a0bc97",
+				"dweb:/ipfs/QmdtGsvDY6ipRCtyLwDWRYQajXwoBvepuQz2SQRATJZQ1o"
 			]
 		}
 	},
