@@ -45,3 +45,24 @@ ToDo:
 - look up map function (typescript) -> [Medium Article](https://medium.com/@ExplosionPills/map-vs-for-loop-2b4ce659fb03#:~:text=In%20the%20same%20way%20that,iteration%20are%20handled%20for%20us.)
 - readup on opcodes / bytes
 - organize lesson projects with git
+
+
+## Lesson 08
+
+**Async Functions**
+- main().catch((arg) => {...});
+- main().then( () => {} );
+
+
+- use ts-node to run scripts with arguments:
+  `yarn run ts-node --files .\scripts\Deployment.ts "arg1" "arg2" "arg3"`
+
+**Deploy on public blockchain**
+- own node
+- use infura, alchemy, or portal
+- use ethers:
+  `const provider = ethers.getDefaultProvider( "sepolia" );`
+  uses some shared keys -> they can go offline often, therefore use community providers
+  Other ways of calling community provider:
+  `const provider = new ethers.PocketProvider( "goerli" );`
+  `const provider = new ethers.JsonRpcProvider( "url" );`
