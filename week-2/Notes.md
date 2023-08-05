@@ -68,3 +68,7 @@ ToDo:
 - to be able to sign the transaction to deploy, a wallet needs to be created using ethers
   `const wallet = new ethers.Wallet( process.env.PRIVATE_KEY ?? "", provider );`
   `?? ""` is required because of typescript but would not work if private key undefined
+
+**Interact with deployed contract**
+- use contract.attach(contractAddress) as Contract -> gives new instance of contract at specific address
+  
