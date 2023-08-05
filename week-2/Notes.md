@@ -53,7 +53,6 @@ ToDo:
 - main().catch((arg) => {...});
 - main().then( () => {} );
 
-
 - use ts-node to run scripts with arguments:
   `yarn run ts-node --files .\scripts\Deployment.ts "arg1" "arg2" "arg3"`
 
@@ -66,3 +65,6 @@ ToDo:
   Other ways of calling community provider:
   `const provider = new ethers.PocketProvider( "goerli" );`
   `const provider = new ethers.JsonRpcProvider( "url" );`
+- to be able to sign the transaction to deploy, a wallet needs to be created using ethers
+  `const wallet = new ethers.Wallet( process.env.PRIVATE_KEY ?? "", provider );`
+  `?? ""` is required because of typescript but would not work if private key undefined
