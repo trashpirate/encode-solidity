@@ -1,15 +1,15 @@
 # Notes for Week 2 #
-## Lesson 05
-- Use NVM to install nodejs - version 18.17 or greater
-- May be easier to us WSL instead of Windows
-- `npm run test` in openzeppelin folder will run test using harhat 
-- Harhat is more convenient because you can use javascript (typescript) code for testing which you can reuse in frontend
-- OpenZeppelin library already provides test files for different conracts
-- Make sure not to initialize a project within another -> will cause error
-- Starting a new project:
-    yarn init -2
-    yarn config set nodeLinker node-modules
-    yarn add hardhat --dev
-    rm .\README.md
+## Lesson 11
+**NFT Contract**
+- import from openzeppelin, use wizard, select mint and roles
+- pass nft contract to the token sale contract
+- contracts are redeployed before each test, use fixture to use the same state each time
 
-- Use Hardhat's Solidity and Mocha Test Explorer extension
+- integers in typescript can not even hold 1 ETH -> bigInt or use ethers.parseUnits, convert back ethers.formatUnits
+- ethers.provider.getBalance(acc.address) gives ETH balance
+- paymentTokenContract.getBalanceOf(acc.address) gives token balance
+
+- to call token contract, implement interface but also contract can be used as an interface
+- to mint tokens from token sale, the token sale contract needs the minter role.
+- need to calculate transaction fees to determine the exact amount of tokens
+- 
