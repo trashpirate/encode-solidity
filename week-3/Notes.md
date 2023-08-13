@@ -24,3 +24,27 @@
   but the latter doesn't give error in editor but only at runtime<br/>
    `const contract = await contratFactory.deploy();`<br/>
    `await contract.waitForDeployment();`
+- voting power: tokens don't give automatically voting power, need to self delegate. Tokens that you keep also keep voting powers but tokens transferred lose the voting power
+
+**Homework:**
+- deploy first the ERC20 token so the blocknumber is minted, mint tokens, transact, delegate, etc; then deploy TokenizedBallot
+- building TokenizedBallot.sol
+  1. use Ballot contract from last week
+  2. implement an interface with IMyToken to call pastVotes to replace the Voters variable in the Ballot
+  3. Still need proposal to track results of voting
+  4. No chairperson is necessary
+  5. no mapping of the voters is required
+  6. contructor:
+     - parameters: proposalNames, token address, target blocknumber
+     - needs token contract from address with Interface
+     - tie Ballot to target Blocknumber - so contract is blocknumber specific
+  7. no need for giving right to vote
+  8. no delegate function neeeded
+  9. Need vote function, can vote with token amount to specific proposal
+     - parameters: proposal, amount
+     - require that account has more tokens than amount to be voted with -> error message: TokenizedBallot: trying to vote morethan allowed
+     - increase vote count of proposal
+     - use mapping for voting power spent to track voting power spent for each account 
+  10. get voting power function: return tokencontract.getpastvotes(account, targetblocknumber): subtract voting power spent
+  11. Keep winningPropsal, winning result
+  
