@@ -19,6 +19,6 @@
  **ERC20 Contract**
  - when a function is implemented by 2 or more contracts that are combined, the function must be redeclared.
  - test erc20 token:<br/>
-   `const [deployer, acc1, acc2] = await ethers.getSigners();`
-  `const contractFactory = new MyToken__factory(deployer);`
+   `const [deployer, acc1, acc2] = await ethers.getSigners();`<br/>
+  `const contractFactory = new MyToken__factory(deployer);`<br/>
    `const contract = contratFactory.deploy();`
