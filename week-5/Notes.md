@@ -27,9 +27,10 @@ Example:
         enabled: true,
         runs: 200
       }
-    }```
+    }
+```
 
-There is a trade-off between deployment and transaction. Optimizer optmizes for expected runs of the contract. So 1 optimized for deployment, while high number of runs optimizes transactions.
+- There is a trade-off between deployment and transaction. Optimizer optmizes for expected runs of the contract. So 1 optimized for deployment, while high number of runs optimizes transactions.
 
 **Smart Contract Security**
 
