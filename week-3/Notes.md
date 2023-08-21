@@ -1,4 +1,5 @@
-# Notes for Week 2 #
+# Notes for Week 3 #
+
 ## Lesson 11
 **NFT Contract**
 - import from openzeppelin, use wizard, select mint and roles
