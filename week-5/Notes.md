@@ -60,3 +60,23 @@ unchecked {
 - contracts cannot read events or memory of past transactions, this only works with state variables
 - solution for unbounded loops is amortisation of work
   -- saving last state in storage that loop can be completed in multiple steps
+
+
+## Lesson 19
+**Block hash and Timestamp**
+- randomness on chain is not possible because blockchain base layer is deterministic
+- randomness needs to be implemented on top of chain
+- quiterandomness can be achieved through block hash
+  - miners can manipulate the hash when they mine the block
+    - timestamp can be manipulated
+  - uint256(blockhash(block.number)) // in solidity uint and uint256 are the same
+  - current block hash is unknown at the time of function execution, thus a previous block needs to be chosen
+
+
+**Use readline for scripts**
+- Allows to give different options through command line
+- Transactions cannot run in parallel, therefore results are always visible (game like rock paper scissors would not work)
+  - Use hash and random number to seal result, compare hashes after revealing result
+  
+**Can use oracles**
+- oracle networks provide random numbers but can be compromised
